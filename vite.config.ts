@@ -9,7 +9,13 @@ export default defineConfig({
     host: "::",
     port: 8080,
   },
-  base: "./", 
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false,
+    minify: true,
+  },
+  base: "/", // Changed to root path for production build
   plugins: [
     react(),
   ],
