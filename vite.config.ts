@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: "./", // Use relative paths instead of absolute
   plugins: [
     react(),
   ].filter(Boolean),
