@@ -273,7 +273,7 @@ const DonationForm = () => {
                   className="donation-button w-full"
                   disabled={isSubmitting || (!donationAmount || (donationAmount === "custom" && !customAmount))}
                 >
-                  {isSubmitting ? "Processing..." : "Proceed to Payment Information"}
+                  {isSubmitting ? "Processing..." : "Submit Donation Form"}
                 </Button>
               </form>
             </CardContent>
@@ -329,7 +329,7 @@ const DonationForm = () => {
                 <p className="font-semibold mb-2">Important Notes:</p>
                 <ul className="list-disc pl-5 space-y-1">
                   <li>Please include your name in the transfer reference.</li>
-                  <li>After making the transfer, you'll receive a confirmation email with receipt details.</li>
+                  {/* <li>After making the transfer, you'll receive a confirmation email with receipt details.</li> */}
                   <li>International transfers may take 3-5 business days to process.</li>
                   <li>Bank transfer fees are the responsibility of the donor.</li>
                 </ul>
