@@ -111,20 +111,24 @@ const DonationForm = () => {
       return (
         <div className="flex flex-wrap gap-4">
           <div className="flex items-center space-x-2">
+            <RadioGroupItem value="5" id="amount-5" />
+            <Label htmlFor="amount-5">$5</Label>
+          </div>
+          <div className="flex items-center space-x-2">
+            <RadioGroupItem value="10" id="amount-10" />
+            <Label htmlFor="amount-10">$10</Label>
+          </div>
+          <div className="flex items-center space-x-2">
+            <RadioGroupItem value="15" id="amount-15" />
+            <Label htmlFor="amount-15">$15</Label>
+          </div>
+          <div className="flex items-center space-x-2">
+            <RadioGroupItem value="20" id="amount-20" />
+            <Label htmlFor="amount-20">$20</Label>
+          </div>
+          <div className="flex items-center space-x-2">
             <RadioGroupItem value="25" id="amount-25" />
             <Label htmlFor="amount-25">$25</Label>
-          </div>
-          <div className="flex items-center space-x-2">
-            <RadioGroupItem value="50" id="amount-50" />
-            <Label htmlFor="amount-50">$50</Label>
-          </div>
-          <div className="flex items-center space-x-2">
-            <RadioGroupItem value="100" id="amount-100" />
-            <Label htmlFor="amount-100">$100</Label>
-          </div>
-          <div className="flex items-center space-x-2">
-            <RadioGroupItem value="250" id="amount-250" />
-            <Label htmlFor="amount-250">$250</Label>
           </div>
           <div className="flex items-center space-x-2">
             <RadioGroupItem value="custom" id="amount-custom" />
@@ -136,20 +140,24 @@ const DonationForm = () => {
       return (
         <div className="flex flex-wrap gap-4">
           <div className="flex items-center space-x-2">
+            <RadioGroupItem value="100" id="amount-100" />
+            <Label htmlFor="amount-100">Rs.100</Label>
+          </div>
+          <div className="flex items-center space-x-2">
+            <RadioGroupItem value="500" id="amount-500" />
+            <Label htmlFor="amount-500">Rs.500</Label>
+          </div>
+          <div className="flex items-center space-x-2">
             <RadioGroupItem value="1000" id="amount-1000" />
             <Label htmlFor="amount-1000">Rs.1,000</Label>
           </div>
           <div className="flex items-center space-x-2">
-            <RadioGroupItem value="2500" id="amount-2500" />
-            <Label htmlFor="amount-2500">Rs.2,500</Label>
+            <RadioGroupItem value="2000" id="amount-2000" />
+            <Label htmlFor="amount-2000">Rs.2,000</Label>
           </div>
           <div className="flex items-center space-x-2">
             <RadioGroupItem value="5000" id="amount-5000" />
             <Label htmlFor="amount-5000">Rs.5,000</Label>
-          </div>
-          <div className="flex items-center space-x-2">
-            <RadioGroupItem value="10000" id="amount-10000" />
-            <Label htmlFor="amount-10000">Rs.10,000</Label>
           </div>
           <div className="flex items-center space-x-2">
             <RadioGroupItem value="custom" id="amount-custom-npr" />
