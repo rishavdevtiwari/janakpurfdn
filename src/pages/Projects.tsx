@@ -10,7 +10,7 @@ const projects = [
     title: "Legal Aid for Women",
     description: 
       "Providing free legal consultation and representation to women facing domestic violence and discrimination. Our team of legal experts helps women navigate the legal system, understand their rights, and receive justice.",
-    image: "/images/carousel-1.png",
+    image: "/images/legalsupp.png",
     stats: "15+ Cases Handled • 30+ Successful Interventions",
     achievements: [
       "Provided free legal aid to over 150 women in Janakpur and surrounding areas",
@@ -55,7 +55,7 @@ const projects = [
     title: "Women's Economic Empowerment",
     description: 
       "Supporting women through vocational training, education, and entrepreneurship opportunities to gain financial independence. Economic independence is crucial for women to escape abusive situations and make free choices about their lives.",
-    image: "/images/womenempowerment.jpg",
+    image: "/images/economicempowerment.jpg",
     stats: "50+ Women Trained • 3+ Small Businesses Started",
     achievements: [
       "Provided vocational training to 50+ women in marketable skills",

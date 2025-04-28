@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
-          <span className="text-2xl font-playfair font-bold bg-gradient-to-r from-[#a18fef] via-[#311a64] to-[#1A1F2C] bg-clip-text text-transparent">
+          <span className="text-2xl font-playfair font-bold bg-gradient-to-r from-[#a18fef] via-[#9361ff] to-[#1A1F2C] bg-clip-text text-transparent">
               Janakpur Foundation
             </span>
           </Link>

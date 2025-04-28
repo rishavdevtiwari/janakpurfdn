@@ -37,7 +37,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2">
                 <Phone size={18} />
-                <a href="tel:+9771234567890" className="text-gray-300 hover:text-white">
+                <a href="tel:+9779818094546" className="text-gray-300 hover:text-white">
                   +977 9854030629/ +977 9818094546
                 </a>
               </li>
@@ -54,22 +54,22 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#about" className="text-gray-300 hover:text-white">
+                <a href="/about" className="text-gray-300 hover:text-white">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#projects" className="text-gray-300 hover:text-white">
+                <a href="/projects" className="text-gray-300 hover:text-white">
                   Our Projects
                 </a>
               </li>
               <li>
-                <a href="#history" className="text-gray-300 hover:text-white">
+                <a href="/history" className="text-gray-300 hover:text-white">
                   Our History
                 </a>
               </li>
               <li>
-                <a href="#donate" className="text-gray-300 hover:text-white">
+                <a href="/donate" className="text-gray-300 hover:text-white">
                   Make a Donation
                 </a>
               </li>

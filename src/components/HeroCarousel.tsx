@@ -8,7 +8,7 @@ const carouselItems = [
     id: 1,
     title: "Legal Support & Protection",
     description: "Providing comprehensive legal aid and advocacy for women's rights",
-    image: "/images/carousel-1.png",
+    image: "/images/legalsupp.png",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const carouselItems = [
     id: 3,
     title: "Empowering Women in Rural Nepal",
     description: "Promoting gender equality and women's rights in Janakpur and beyond",
-    image: "/images/womenempowerment.jpg",
+    image: "/images/educating.png",
   },
   {
     id: 4,
