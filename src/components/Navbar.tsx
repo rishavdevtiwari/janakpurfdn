@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { Menu, X, Home, Info, FileText, History } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -29,26 +30,34 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
-            <span className="text-2xl font-playfair font-bold text-foundation-purple">
+          <span className="text-2xl font-playfair font-bold bg-gradient-to-r from-[#a18fef] via-[#311a64] to-[#1A1F2C] bg-clip-text text-transparent">
               Janakpur Foundation
             </span>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8 items-center">
-            <Link to="/" className="text-gray-800 hover:text-foundation-purple font-medium flex items-center">
+            <Link to="/" className={`font-medium flex items-center ${
+              isScrolled ? 'text-gray-800 hover:text-foundation-purple' : 'text-white hover:text-foundation-lightGray'
+            }`}>
               <Home size={18} className="nav-icon" /> 
               <span className="nav-text">Home</span>
             </Link>
-            <Link to="/about" className="text-gray-800 hover:text-foundation-purple font-medium flex items-center">
+            <Link to="/about" className={`font-medium flex items-center ${
+              isScrolled ? 'text-gray-800 hover:text-foundation-purple' : 'text-white hover:text-foundation-lightGray'
+            }`}>
               <Info size={18} className="nav-icon" />
               <span className="nav-text">About</span>
             </Link>
-            <Link to="/projects" className="text-gray-800 hover:text-foundation-purple font-medium flex items-center">
+            <Link to="/projects" className={`font-medium flex items-center ${
+              isScrolled ? 'text-gray-800 hover:text-foundation-purple' : 'text-white hover:text-foundation-lightGray'
+            }`}>
               <FileText size={18} className="nav-icon" />
               <span className="nav-text">Projects</span>
             </Link>
-            <Link to="/history" className="text-gray-800 hover:text-foundation-purple font-medium flex items-center">
+            <Link to="/history" className={`font-medium flex items-center ${
+              isScrolled ? 'text-gray-800 hover:text-foundation-purple' : 'text-white hover:text-foundation-lightGray'
+            }`}>
               <History size={18} className="nav-icon" />
               <span className="nav-text">History</span>
             </Link>
@@ -64,6 +73,7 @@ const Navbar = () => {
               size="icon"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label="Toggle Menu"
+              className={isScrolled ? "" : "text-white"}
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </Button>

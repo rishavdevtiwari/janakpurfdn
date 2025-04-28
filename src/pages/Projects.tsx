@@ -55,7 +55,7 @@ const projects = [
     title: "Women's Economic Empowerment",
     description: 
       "Supporting women through vocational training, education, and entrepreneurship opportunities to gain financial independence. Economic independence is crucial for women to escape abusive situations and make free choices about their lives.",
-    image: "/images/womenempowerment.png",
+    image: "/images/womenempowerment.jpg",
     stats: "50+ Women Trained • 3+ Small Businesses Started",
     achievements: [
       "Provided vocational training to 50+ women in marketable skills",
@@ -65,6 +65,21 @@ const projects = [
     ],
     impact: "Women who complete our economic empowerment program report an average 60% increase in personal income and significantly greater decision-making power within their families."
   },
+  {
+    id: 5,
+    title: "Legal Skills Against Domestic Abuse",
+    description: 
+      "Providing comprehensive training on legal rights, procedures, and resources to help women combat domestic abuse. Our program focuses on practical legal knowledge and support systems.",
+    image: "/images/domesticabusetraining.jpg",
+    stats: "10+ Women Trained • 2 Legal Workshops Conducted",
+    achievements: [
+      "Conducted 2 foundational legal awareness workshops",
+      "Trained 10 women in understanding legal procedures and rights",
+      "Created simplified legal guides in local languages",
+      "Established connections with local legal professionals"
+    ],
+    impact: "Initial participants report increased confidence in understanding their legal rights and available support systems for addressing domestic abuse situations."
+  }
 ];
 
 const Projects = () => {

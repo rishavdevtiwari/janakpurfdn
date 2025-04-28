@@ -20,7 +20,13 @@ const carouselItems = [
     id: 3,
     title: "Empowering Women in Rural Nepal",
     description: "Promoting gender equality and women's rights in Janakpur and beyond",
-    image: "/images/carousel-3.png",
+    image: "/images/womenempowerment.jpg",
+  },
+  {
+    id: 4,
+    title: "Legal Skills Against Domestic Abuse",
+    description: "Empowering women with legal knowledge and resources to combat domestic violence",
+    image: "/images/training.jpg",
   }
 ];
 

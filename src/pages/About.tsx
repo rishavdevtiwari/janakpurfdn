@@ -15,13 +15,13 @@ const About = () => {
       name: "Lal Chandra Jha",
       title: "Accountant",
       bio: "Manages the foundation's finances and ensures transparency in all financial matters.",
-      image: "/placeholder.svg"
+      image: "/images/lalchandrajha.png"
     },
     {
       name: "Saroj Devi Jha",
       title: "Social Mobilizer",
       bio: "Works directly with communities to organize awareness programs and mobilize support for various initiatives.",
-      image: "/placeholder.svg"
+      image: "/images/sarojdevi.png"
     },
     {
       name: "Rahumat Rahyan",
