@@ -9,7 +9,7 @@ const projects = [
     id: 1,
     title: "Legal Aid for Women",
     description: "Providing free legal consultation and representation to women facing domestic violence and discrimination.",
-    image: "/images/legalsupp.png",
+    image: "/images/meeting.jpg",
     stats: "15+ Cases Handled • 8+ Successful Interventions",
   },
   {

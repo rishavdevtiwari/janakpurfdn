@@ -45,7 +45,7 @@ const About = () => {
       name: "Krishna Kumar Jha",
       title: "Legal Adviser",
       bio: "Provides expert legal counsel to the foundation and represents clients in legal proceedings.",
-      image: "/placeholder.svg"
+      image: "/images/krishna.png"
     },
     {
       name: "Rani Kumari",
