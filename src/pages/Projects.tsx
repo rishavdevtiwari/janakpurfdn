@@ -55,7 +55,7 @@ const projects = [
     title: "Women's Economic Empowerment",
     description: 
       "Supporting women through vocational training, education, and entrepreneurship opportunities to gain financial independence. Economic independence is crucial for women to escape abusive situations and make free choices about their lives.",
-    image: "/images/economicempowerment.png",
+    image: "/images/img101.png",
     stats: "50+ Women Trained • 3+ Small Businesses Started",
     achievements: [
       "Provided vocational training to 50+ women in marketable skills",

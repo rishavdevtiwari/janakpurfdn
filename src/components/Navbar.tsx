@@ -38,25 +38,25 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8 items-center">
             <Link to="/" className={`font-medium flex items-center ${
-              isScrolled ? 'text-gray-800 hover:text-foundation-purple' : 'text-white hover:text-foundation-lightGray'
+              isScrolled ? 'text-gray-800 hover:text-foundation-purple' : 'text-#7FA5C6 hover:text-foundation-lightGray'
             }`}>
               <Home size={18} className="nav-icon" /> 
               <span className="nav-text">Home</span>
             </Link>
             <Link to="/about" className={`font-medium flex items-center ${
-              isScrolled ? 'text-gray-800 hover:text-foundation-purple' : 'text-white hover:text-foundation-lightGray'
+              isScrolled ? 'text-gray-800 hover:text-foundation-purple' : 'text-#7FA5C6 hover:text-foundation-lightGray'
             }`}>
               <Info size={18} className="nav-icon" />
               <span className="nav-text">About</span>
             </Link>
             <Link to="/projects" className={`font-medium flex items-center ${
-              isScrolled ? 'text-gray-800 hover:text-foundation-purple' : 'text-white hover:text-foundation-lightGray'
+              isScrolled ? 'text-gray-800 hover:text-foundation-purple' : 'text-#7FA5C6 hover:text-foundation-lightGray'
             }`}>
               <FileText size={18} className="nav-icon" />
               <span className="nav-text">Projects</span>
             </Link>
             <Link to="/history" className={`font-medium flex items-center ${
-              isScrolled ? 'text-gray-800 hover:text-foundation-purple' : 'text-white hover:text-foundation-lightGray'
+              isScrolled ? 'text-gray-800 hover:text-foundation-purple' : 'text-#7FA5C6 hover:text-foundation-lightGray'
             }`}>
               <History size={18} className="nav-icon" />
               <span className="nav-text">History</span>
