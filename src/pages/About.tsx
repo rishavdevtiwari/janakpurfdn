@@ -82,7 +82,7 @@ const About = () => {
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="/images/carousel-1.png" 
+                src="/images/mission.jpg" 
                 alt="Foundation Mission" 
                 className="w-full h-auto object-cover"
               />
@@ -92,7 +92,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
             <div className="order-2 md:order-1 rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="/images/ce1217e6-bfa2-4574-90f3-f6018914f5ee.png" 
+                src="/images/vision.png" 
                 alt="Foundation Vision" 
                 className="w-full h-auto object-cover"
               />
