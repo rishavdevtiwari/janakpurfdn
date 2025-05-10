@@ -8,7 +8,7 @@ const carouselItems = [
     id: 1,
     title: "Legal Support & Protection",
     description: "Providing comprehensive legal aid and advocacy for women's rights",
-    image: "/images/legalsupp.png",
+    image: "/images/ghareluhinsa.jpg",
   },
   {
     id: 2,
